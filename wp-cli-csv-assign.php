@@ -20,9 +20,9 @@ define( 'WP_CLI_CSV_ASSIGN_DIR_PATH', plugin_dir_path( __FILE__ ) );
 /**
  * File that conatins code to import csv file and assign category and tags from it.
  */
-require_once WP_CLI_CSV_ASSIGN_DIR_PATH . 'csv-import.php';
+require_once WP_CLI_CSV_ASSIGN_DIR_PATH . '/includes/csv-import.php';
 
 /**
  * File that conatins code to export csv file based on stored posts in backend.
  */
-require_once WP_CLI_CSV_ASSIGN_DIR_PATH . 'csv-export.php';
+require_once WP_CLI_CSV_ASSIGN_DIR_PATH . '/includes/csv-export.php';
